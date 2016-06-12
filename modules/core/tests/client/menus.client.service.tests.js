@@ -161,7 +161,7 @@
         expect(Menus.menus).not.toContain(menu.id);
       });
 
-      it('validates menu existance before removing', function() {
+      it('validates menu existence before removing', function() {
         expect(Menus.validateMenuExistance).toHaveBeenCalledWith(menu.id);
       });
     });
@@ -197,7 +197,7 @@
         menuItem = menu.items[0];
       });
 
-      it('should validate menu existance', function() {
+      it('should validate menu existence', function() {
         expect(Menus.validateMenuExistance).toHaveBeenCalledWith(menuId);
       });
 
@@ -286,7 +286,7 @@
         expect(menu).not.toBeNull();
       });
 
-      it('should validate menu existance', function() {
+      it('should validate menu existence', function() {
         expect(Menus.validateMenuExistance).toHaveBeenCalledWith(menuId);
       });
 
@@ -346,7 +346,7 @@
         expect(menu).not.toBeNull();
       });
 
-      it('should validate menu existance', function() {
+      it('should validate menu existence', function() {
         expect(Menus.validateMenuExistance).toHaveBeenCalledWith(menuId);
       });
 
@@ -412,7 +412,7 @@
           menu = Menus.removeSubMenuItem(menuId, subItem1.state);
         });
 
-        it('should validate menu existance', function() {
+        it('should validate menu existence', function() {
           expect(Menus.validateMenuExistance).toHaveBeenCalledWith(menuId);
         });
 

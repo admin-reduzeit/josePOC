@@ -427,7 +427,7 @@
 * Merge pull request #744 from Gym/0.4.0 ([a66c3fe](https://github.com/meanjs/mean/commit/a66c3fe))
 * Merge pull request #750 from lirantal/bugfix/gitignore_jekyll_assets ([5bdd8f9](https://github.com/meanjs/mean/commit/5bdd8f9))
 * Merge remote-tracking branch 'upstream/0.4.0' into 0.4.0 ([07e8b41](https://github.com/meanjs/mean/commit/07e8b41))
-* Modify Generator Refrences/Docs ([c539cdb](https://github.com/meanjs/mean/commit/c539cdb))
+* Modify Generator References/Docs ([c539cdb](https://github.com/meanjs/mean/commit/c539cdb))
 * Move livereload, image, and favicon to config ([a62c4dd](https://github.com/meanjs/mean/commit/a62c4dd))
 * move task configs to separate properties. ([0f7cf54](https://github.com/meanjs/mean/commit/0f7cf54))
 * Moved all editor setting to bottom ([0a7a715](https://github.com/meanjs/mean/commit/0a7a715))

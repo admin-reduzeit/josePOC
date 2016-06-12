@@ -98,7 +98,7 @@ function getLogOptions () {
 
       if (process.env.NODE_ENV !== 'test') {
         console.log();
-        console.log(chalk.red('An error has occured during the creation of the WriteStream. The stream option has been omitted.'));
+        console.log(chalk.red('An error has occurred during the creation of the WriteStream. The stream option has been omitted.'));
         console.log(chalk.red(err));
         console.log();
       }

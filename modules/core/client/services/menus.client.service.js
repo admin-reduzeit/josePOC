@@ -29,7 +29,7 @@ angular.module('core').service('Menus', [
       return false;
     };
 
-    // Validate menu existance
+    // Validate menu existence
     this.validateMenuExistance = function (menuId) {
       if (menuId && menuId.length) {
         if (this.menus[menuId]) {

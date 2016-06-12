@@ -62,7 +62,7 @@ Fixes #82
   * The subject line should be clear and concise as to what is being accomplished in the commit.
 * General Rules:
   * No Line in the Commit message can be longer than 80 characters.
-* Refrence: [Angular Conventions](https://github.com/ajoslin/conventional-changelog/blob/master/conventions/angular.md)
+* Reference: [Angular Conventions](https://github.com/ajoslin/conventional-changelog/blob/master/conventions/angular.md)
 
 
 ## Submitting the Pull Request
